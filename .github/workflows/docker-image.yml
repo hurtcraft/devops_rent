@@ -23,4 +23,4 @@ jobs:
 
       - name: Build Docker images
         run: |
-          docker build -t rent:latest ./rent
+          docker build -t MyService:latest ./MyService
