@@ -23,4 +23,4 @@ jobs:
 
       - name: Build Docker images
         run: |
-          docker build -t MyService:latest ./MyService
+          docker build -t myservice:latest ./MyService
