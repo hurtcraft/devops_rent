@@ -26,7 +26,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - name: Run tests
-        run: ./gradlew test
+        run: ./Myservice/gradlew test
 
       - name: Build Docker images
         run: |
