@@ -31,7 +31,7 @@ jobs:
 
       - name: Run tests
         working-directory: ./MyService
-        run: gradlew test
+        run: ./gradlew test
 
       - name: Build Docker images
         run: |
