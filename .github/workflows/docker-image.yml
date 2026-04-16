@@ -30,7 +30,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Run tests
-        run: gradlew test
+        run: gradlew tests
 
       - name: Build Docker images
         run: |
