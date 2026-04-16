@@ -30,6 +30,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Run tests
+        working-directory: ./MyService
         run: gradlew test
 
       - name: Build Docker images
