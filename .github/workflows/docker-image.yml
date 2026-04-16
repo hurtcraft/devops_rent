@@ -27,7 +27,7 @@ jobs:
           java-version: '17'
       - name: Run tests
         working-directory: ./MyService
-        run: ./gradlew test
+        run: chmod +x gradlew
 
       - name: Build Docker images
         run: |
